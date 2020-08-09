@@ -1,24 +1,16 @@
-// ==UserScript==
-// @name          Google Earth Engine Dark Mode
-// @namespace     http://userstyles.org
-// @description	  GEE code editor dark mode
-// @author        João Siqueira
-// @homepage      https://userstyles.org/styles/187669
-// @run-at        document-start
-// @version       0.20200809035421
-// ==/UserScript==
+/* ==UserStyle==
+@name          Google Earth Engine Dark Mode
+@namespace     João Siqueira
+@description	  A dark theme to Google Earth Engine
+@author        João Siqueira
+@homepage      https://github.com/joaosiqueira/dark-mode-gee
+@updateURL    https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css
+@version       1.0
+==/UserScript==*/
+
 @-moz-document domain("code.earthengine.google.com") {
 @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
     html {
-        /*--ee-button-action-color: #fff;
-    --ee-button-cancel-color: var(--google-grey-800);
-    --ee-button-disabled-bg-color: var(--google-grey-100);
-    --ee-button-disabled-color: var(--google-grey-700);
-    --ee-button-font-size: 14px;
-    --ee-button-hover-bg-color: var(--google-grey-100);
-    --ee-button-menu-color: #fff;
-    --ee-legacy-blue: #2196f3;
-    --ee-legacy-paper-dialog-title: 500 20px Roboto,Helvetica,Arial,sans-serif;*/
         --ee-legacy-red: #661565;
     }
 

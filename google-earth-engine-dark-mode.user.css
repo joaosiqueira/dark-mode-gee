@@ -13,7 +13,7 @@
 @var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)
 @var color primary-background-color "Primary Background Color" rgba(24, 34, 48, .95)
 
-==UserStyle==*/
+==UserStyle== */
 
 @-moz-document domain("code.earthengine.google.com") {
 

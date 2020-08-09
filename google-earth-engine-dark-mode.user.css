@@ -8,11 +8,6 @@
 @updateURL     https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/dark-mode-gee.user.css
 @version       1.0
 @license       MIT
-
-@var color ee-legacy-red "Legacy Red Color" #661565
-@var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)
-@var color primary-background-color "Primary Background Color" rgba(24, 34, 48, .95)
-
 @advanced dropdown theme "Theme" {
   oceanic "Oceanic" 
 <<<EOT 200, 19% EOT;
@@ -52,6 +47,9 @@
 	slate "Slate" <<<EOT 200 EOT;
 	custom "Custom accent" <<<EOT var(--custom_accent, none) EOT;
 }
+@var color ee-legacy-red "Legacy Red Color" #661565
+@var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)
+@var color primary-background-color "Primary Background Color" rgba(24, 34, 48, .95)
 ==UserStyle== */
 
 @-moz-document domain("code.earthengine.google.com") {

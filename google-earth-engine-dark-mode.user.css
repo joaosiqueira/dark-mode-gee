@@ -7,6 +7,8 @@
 @homepageURL https://github.com/joaosiqueira/dark-mode-gee
 @supportURL https://github.com/joaosiqueira/dark-mode-gee/issues
 @updateURL https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/google-earth-engine-dark-mode.user.css
+@license unlicense
+@preprocessor stylus
 ==/UserStyle== */
 @-moz-document domain("code.earthengine.google.com") {
     html {
@@ -329,7 +331,6 @@
     .jfk-button-action {
         background-image: -webkit-linear-gradient(top, #18191a, #18191a);
         background-color: #18191a;
-        ;
         border: 1px solid #18191a;
         color: #fff;
     }
@@ -337,7 +338,6 @@
     .editor-panel > .header .goog-button {
         background-image: -webkit-linear-gradient(top, #18191a, #18191a);
         background-color: #18191a;
-        ;
         border: 1px solid #18191a;
         color: #fff;
         height: 24px!important;
@@ -456,8 +456,8 @@ estou colocando uma cor azul clara nela*/
     }
 
     .repo-manager .refresh-button {
-        background-image: -webkit-linear-gradient(top, #18191a, #18191a)!important;
         background: #2122229c!important;
+        background-image: -webkit-linear-gradient(top, #18191a, #18191a)!important;
         border: 2px solid #0000001f!important;
     }
 

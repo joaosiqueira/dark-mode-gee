@@ -1,15 +1,10 @@
 /* ==UserStyle==
-@name Google Earth Engine Dark Mode
-@namespace Joao Siqueira
-@description A dark theme to Google Earth Engine
-@author Joao Siqueira
-@homepage https://github.com/joaosiqueira/dark-mode-gee
-@supportURL https://github.com/joaosiqueira/dark-mode-gee/issues
-@updateURL https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/google-earth-engine-dark-mode.user.css
-@version 0.0.1
-@license unlicense
-@preprocessor stylus
-==UserStyle== */
+@name           Google Earth Engine Dark Mode
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A dark mode to code editor
+@author         Joao Siqueira
+==/UserStyle== */
 @-moz-document domain("code.earthengine.google.com") {
     html {
         --ee-legacy-red: #661565;

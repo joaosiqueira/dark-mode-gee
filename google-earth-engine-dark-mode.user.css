@@ -13,6 +13,45 @@
 @var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)
 @var color primary-background-color "Primary Background Color" rgba(24, 34, 48, .95)
 
+@advanced dropdown theme "Theme" {
+  oceanic "Oceanic" 
+<<<EOT 200, 19% EOT;
+  darker "Darker" 
+<<<EOT 0, 0% EOT;
+  palenight "Palenight" 
+<<<EOT 229, 20% EOT;
+  custom "Custom Theme"
+<<<EOT var(--hue, none), var(--saturation, none) EOT;
+}
+@var range hue "Custom theme hue" [0, 0, 360, 1, ""]
+@var range saturation "Custom theme saturation" [100, "%"]
+@var range lightness "Custom theme Lightness" [1, 0.1, 1.9, 0.1, ""]
+@advanced dropdown accent "Accent" {
+	turquoise "Turquoise" <<<EOT 174 EOT;
+	tomato "Tomato" <<<EOT 4 EOT;
+	lavender "Lavender" <<<EOT 262 EOT;
+	daisy "Daisy" <<<EOT 54 EOT;
+	lime "Lime" <<<EOT 89 EOT;
+	amethyst "Amethyst" <<<EOT 291 EOT;
+	abyss "Abyss" <<<EOT 229 EOT;
+	orange "Orange" <<<EOT 15 EOT;
+	oceanic "Oceanic" <<<EOT 199 EOT;
+	acid_lime "Acid lime" <<<EOT 73 EOT;
+	dodgerblue "Dodgerblue" <<<EOT 218 EOT;
+	strawberry "Strawberry" <<<EOT 340 EOT;
+	light "Light" <<<EOT 0 EOT;
+	indigo "Indigo" <<<EOT 231 EOT;
+	water "Water" <<<EOT 207 EOT;
+	sky "Sky" <<<EOT 180 EOT;
+	plant "Plant" <<<EOT 123 EOT;
+	aquamarine "Aquamarine" <<<EOT 166 EOT;
+	cyan "Cyan" <<<EOT 187 EOT;
+	palenight "Palenight" <<<EOT 231 EOT;
+	amber "Amber" <<<EOT 51 EOT;
+	atomic_purple "Atomic purple" <<<EOT 259 EOT;
+	slate "Slate" <<<EOT 200 EOT;
+	custom "Custom accent" <<<EOT var(--custom_accent, none) EOT;
+}
 ==UserStyle== */
 
 @-moz-document domain("code.earthengine.google.com") {

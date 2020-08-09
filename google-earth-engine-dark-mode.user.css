@@ -9,7 +9,7 @@
 ==/UserScript==*/
 
 @-moz-document domain("code.earthengine.google.com") {
-@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
+
     html {
         --ee-legacy-red: #661565;
     }
@@ -924,5 +924,4 @@ estou colocando uma cor azul clara nela*/
         border: 2px solid #2b29296e;
         border-top-color: #2b29296e;
     }
-}
 }

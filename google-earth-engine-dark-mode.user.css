@@ -1,11 +1,13 @@
 /* ==UserStyle==
 @name          Google Earth Engine Dark Mode
 @namespace     João Siqueira
-@description	  A dark theme to Google Earth Engine
+@description   A dark theme to Google Earth Engine
 @author        João Siqueira
 @homepage      https://github.com/joaosiqueira/dark-mode-gee
-@updateURL    https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css
+@supportURL    https://github.com/joaosiqueira/dark-mode-gee/issues
+@updateURL     https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/dark-mode-gee.user.css
 @version       1.0
+@license       MIT
 
 @var color ee-legacy-red "Legacy Red Color" #661565
 @var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)

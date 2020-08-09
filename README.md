@@ -18,7 +18,8 @@ A darker theme for gee code editor
 ## Disclaimer
 
 If the theme is broken, don't hesitate to fill an issue here.
-I'm not a web designer :).
+
+Obs.: I'm not a web designer :).
 
 ## Contributions
 

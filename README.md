@@ -1,6 +1,8 @@
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20%20with-Stylus-00adad.svg?style=for-the-badge&logo=stylus)](https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/google-earth-engine-dark-mode.user.css)
 
 # Darker Theme for Google Earth Engine code editor
+
+## About
 A darker theme for gee code editor
 
 ![Darker Theme for Google Earth Engine code editor](https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/darker.png)

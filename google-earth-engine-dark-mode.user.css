@@ -11,7 +11,6 @@
 @preprocessor stylus
 ==UserStyle== */
 @-moz-document domain("code.earthengine.google.com") {
-
     html {
         --ee-legacy-red: #661565;
     }

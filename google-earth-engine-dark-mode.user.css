@@ -4,6 +4,9 @@
 @version        1.0.0
 @description    A dark mode to code editor
 @author         Joao Siqueira
+@homepageURL https://github.com/joaosiqueira/dark-mode-gee
+@supportURL https://github.com/joaosiqueira/dark-mode-gee/issues
+@updateURL https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/google-earth-engine-dark-mode.user.css
 ==/UserStyle== */
 @-moz-document domain("code.earthengine.google.com") {
     html {

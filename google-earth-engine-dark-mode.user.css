@@ -6,12 +6,16 @@
 @homepage      https://github.com/joaosiqueira/dark-mode-gee
 @updateURL    https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css
 @version       1.0
+
+@var color ee-legacy-red "Legacy Red Color" #661565
+@var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)
+@var color primary-background-color "Primary Background Color" rgba(24, 34, 48, .95)
 ==/UserScript==*/
 
 @-moz-document domain("code.earthengine.google.com") {
 
     html {
-        --ee-legacy-red: #661565;
+        --ee-legacy-red: /*[[ee-legacy-red]]*/;
     }
 
     body {

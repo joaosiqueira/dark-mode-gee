@@ -10,7 +10,8 @@
 @var color ee-legacy-red "Legacy Red Color" #661565
 @var color primary-text-color "Primary Text Color" rgba(255, 255, 255, .75)
 @var color primary-background-color "Primary Background Color" rgba(24, 34, 48, .95)
-==/UserScript==*/
+
+==UserStyle==*/
 
 @-moz-document domain("code.earthengine.google.com") {
 
@@ -566,8 +567,8 @@ estou colocando uma cor azul clara nela*/
 
 
     html {
-        --primary-text-color: rgba(255, 255, 255, .75);
-        --primary-background-color: rgba(24, 34, 48, .95);
+        --primary-text-color: /*[[primary-text-color]]*/;
+        --primary-background-color: /*[[primary-background-color]]*/;
     }
 
     .docs-list-popup {

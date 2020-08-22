@@ -615,23 +615,23 @@ estou colocando uma cor azul clara nela*/
     .task.running-on-client .indicator,
     .task.submitted-to-backend .indicator,
     .task.running-on-backend .indicator {
-        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/processing.gif);
+        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif);
     }
 
     .task.running-on-client .indicator,
     .task.submitted-to-backend .indicator,
     .task.running-on-backend .indicator {
-        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/processing.gif);
+        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif);
     }
 
     .task.running-on-client .indicator,
     .task.submitted-to-backend .indicator,
     .task.running-on-backend .indicator {
-        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/processing.gif);
+        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif);
     }
 
     .script-migration-dialog.loading::after {
-        background: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/processing.gif) left top no-repeat;
+        background: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif) left top no-repeat;
     }
 
     .ui-thumbnail.loading::before {

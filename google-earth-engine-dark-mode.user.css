@@ -616,23 +616,23 @@ estou colocando uma cor azul clara nela*/
     .task.running-on-client .indicator,
     .task.submitted-to-backend .indicator,
     .task.running-on-backend .indicator {
-        background-image: url(https://user-images.githubusercontent.com/14841756/81140525-069f3f00-8f40-11ea-89a1-7748d0e4c0f9.gif);
+        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif);
     }
 
     .task.running-on-client .indicator,
     .task.submitted-to-backend .indicator,
     .task.running-on-backend .indicator {
-        background-image: url(https://user-images.githubusercontent.com/14841756/81140525-069f3f00-8f40-11ea-89a1-7748d0e4c0f9.gif);
+        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif);
     }
 
     .task.running-on-client .indicator,
     .task.submitted-to-backend .indicator,
     .task.running-on-backend .indicator {
-        background-image: url(https://user-images.githubusercontent.com/14841756/81140525-069f3f00-8f40-11ea-89a1-7748d0e4c0f9.gif);
+        background-image: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif);
     }
 
     .script-migration-dialog.loading::after {
-        background: url(https://user-images.githubusercontent.com/14841756/81140525-069f3f00-8f40-11ea-89a1-7748d0e4c0f9.gif) left top no-repeat
+        background: url(https://raw.githubusercontent.com/joaosiqueira/dark-mode-gee/master/misc/processing.gif) left top no-repeat;
     }
 
     .ui-thumbnail.loading::before {

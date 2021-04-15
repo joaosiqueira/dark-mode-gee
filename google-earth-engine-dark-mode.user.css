@@ -184,7 +184,7 @@
     .goog-splitpane-handle-horizontal {
         background-repeat: no-repeat;
         background-position: center;
-        border-color: #21242f;
+        border-color: #1e2029;
         border-style: solid;
         border-width: 5px
     }
@@ -198,7 +198,16 @@
         line-height: 19px;
         user-select: none;
     }
-
+    
+    .google-visualization-table-div-page.gradient {
+        background-color: #21242e;
+        background-image: -webkit-linear-gradient(top, #21242e, #21242e);
+        background-image: -moz-linear-gradient(top, #21242e, #21242e);
+        background-image: -ms-linear-gradient(top, #21242e, #21242e);
+        background-image: -o-linear-gradient(top, #21242e, #21242e);
+        /*background-image: linear-gradient(top, #18191a, #18191a);*/
+    } 
+    
     .tab-panel > .header .goog-tab {
         font-family: 'Inter', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Menlo', 'Monaco', 'Bitstream Vera Sans Mono', 'Consolas', 'source-code-pro', monospace!important;
         display: inline-block;
@@ -865,11 +874,19 @@ estou colocando uma cor azul clara nela*/
     .ui-chart {
         height: 250px;
     }
-
+    
     .ui-chart .chart-table-header:first-child {
-        background-color: #151515;
+        background-color: #21242e;
+        border-bottom: 0px solid #eee;
+        border-right: 0px solid #eee;
     }
     
+    .ui-chart .chart-table-header:last-child {
+        border-bottom: 0px solid #eee;
+        border-left: 0px solid #eee;
+        border-right: 0px;
+    }
+
     .inspect-panel .zippy > .header {
         line-height: 25px;
     }

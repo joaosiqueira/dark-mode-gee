@@ -66,7 +66,8 @@
     }
 
     a {
-        color: #fffa54;
+        background-color: #21242e;
+        color: #bf00bf;
         cursor: pointer;
         font-weight: unset;
         text-decoration: none;

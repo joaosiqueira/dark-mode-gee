@@ -866,6 +866,10 @@ estou colocando uma cor azul clara nela*/
         height: 250px;
     }
 
+    .ui-chart .chart-table-header:first-child {
+        background-color: #151515;
+    }
+    
     .inspect-panel .zippy > .header {
         line-height: 25px;
     }

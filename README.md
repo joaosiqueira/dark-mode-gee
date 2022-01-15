@@ -19,7 +19,7 @@ A darker theme for gee code editor
 
 ## Disclaimer
 
-If the theme is broken, don't hesitate to fill an issue here.
+If the theme is broken, don't hesitate to fill an issue.
 
 Obs.: I'm not a web designer :).
 
